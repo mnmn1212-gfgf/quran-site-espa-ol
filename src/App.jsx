@@ -1239,16 +1239,19 @@ export default function QuranTranslationLandingPage() {
                       </div>
                     )}
 
-                    <div className="mt-6 grid grid-cols-3 gap-2 text-center sm:mt-8 sm:gap-3">
+                    <div className="mt-6 grid grid-cols-1 gap-3 text-center sm:mt-8 sm:grid-cols-3 sm:gap-3">
                       {heroCards.map((item) => (
                         <div
                           key={item.label}
-                          className="rounded-2xl border border-white/10 bg-white/5 p-3 sm:p-4"
+                          className="rounded-2xl border border-[rgba(212,175,55,0.16)] bg-[linear-gradient(135deg,rgba(74,10,36,0.30)_0%,rgba(22,29,58,0.28)_55%,rgba(110,67,32,0.24)_100%)] p-3 sm:p-4"
                         >
-                          <div className="text-sm font-bold sm:text-lg" style={{ color: ACCENT }}>
+                          <div
+                            className="text-base font-bold leading-6 break-words sm:text-lg"
+                            style={{ color: ACCENT }}
+                          >
                             {item.value}
                           </div>
-                          <div className="mt-1 text-[11px] text-white/60 sm:text-xs">
+                          <div className="mt-1 text-xs leading-5 text-white/70 sm:text-xs">
                             {item.label}
                           </div>
                         </div>
