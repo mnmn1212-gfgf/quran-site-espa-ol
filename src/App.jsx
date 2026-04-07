@@ -1112,7 +1112,7 @@ export default function QuranTranslationLandingPage() {
                 variants={fadeUp}
                 className="text-3xl font-black leading-[1.25] sm:text-5xl lg:text-7xl"
               >
-                <span className="block bg-gradient-to-r from-[#F3E7B3] via-emerald-100 to-yellow-100 bg-clip-text text-transparent">
+                <span className="block bg-gradient-to-r from-[#F3E7B3] via-[#D4AF37] to-[#CFAF5A] bg-clip-text text-transparent">
                   Canales Coránicos Sana
                 </span>
               </motion.h1>
